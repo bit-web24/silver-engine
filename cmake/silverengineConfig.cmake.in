@@ -1,0 +1,6 @@
+@PACKAGE_INIT@
+
+include("${CMAKE_CURRENT_LIST_DIR}/silverengineTargets.cmake")
+
+set(SILVERENGINE_INCLUDE_DIRS "@CMAKE_INSTALL_INCLUDEDIR@")
+set(SILVERENGINE_LIBRARIES silverengine)
