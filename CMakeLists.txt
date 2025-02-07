@@ -37,7 +37,7 @@ install(TARGETS silverengine
 )
 
 # Install headers (only header files)
-install(DIRECTORY src/ DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/silverengine FILES_MATCHING PATTERN "*.h")
+install(DIRECTORY include/ DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/silverengine FILES_MATCHING PATTERN "*.h")
 
 # Create and install the package configuration files
 include(CMakePackageConfigHelpers)
