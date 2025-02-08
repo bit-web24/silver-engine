@@ -11,7 +11,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include(GNUInstallDirs)
 
 # Add the library (shared object)
-add_library(silverengine SHARED src/silverengine.cpp)
+add_library(silverengine SHARED src/silverengine.cpp src/models.cpp)
 
 # Set library versioning
 set_target_properties(silverengine PROPERTIES VERSION ${PROJECT_VERSION} SOVERSION 1)

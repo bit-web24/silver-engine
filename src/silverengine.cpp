@@ -1,9 +1,7 @@
-#include <iostream>
-
 #include "silverengine.h"
 
-using namespace std;
+namespace silverengine {
 
-string status() {
-  return "OK";
-}
+std::string status() { return "OK"; }
+
+} // namespace silverengine
